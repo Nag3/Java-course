@@ -11,23 +11,23 @@ public class DemoStatic {
       Account a2=new Account(103, "Anand", 50000, "7865421591");
       Account a3=new Account(102, "Anvesh", 50000, "7865421592");
       a1.setBranch("2515");
-      a2.setBranch("2515");
-      a3.setBranch("2515");
+      //a2.setBranch("2515");
+     // a3.setBranch("2515");
       System.out.println(a1);
       System.out.println(a2);
       System.out.println(a3);
-      System.out.println("Accounts of Branch :" +a1.getBranch()+" created");
+      System.out.println("Accounts of Branch :" +a3.getBranch()+" created");
       Account a4=new Account(105, "Arjun", 50000, "7869865129");
       Account a5=new Account(105, "Arjun", 50000, "7685125968");
       Account a6=new Account(105, "Arjun", 50000, "8686518561");
       a4.setBranch("8505");
-      a5.setBranch("8505");
-      a6.setBranch("8505");
+      //a5.setBranch("8505");
+      //a6.setBranch("8505");
       System.out.println(a4);
       System.out.println(a5);
       System.out.println(a6);
       
-      System.out.println("Accounts of Branch :" +a4.getBranch()+" created");
+      System.out.println("Accounts of Branch :" +a6.getBranch()+" created");
 	}
 
 }
