@@ -633,3 +633,21 @@ create table bank_applicant2(
      applicant_dob='03-JUL-1993',
      applicant_address='Seawoods'
     where applicant_id=104;
+
+insert into payee values(143586,'Nagesh','Nag',200000,101);
+
+insert into payee values(143876,'Rajeev','Raj',200000,101);
+
+insert into payee values(143586,'Veerender','Veeru',200000,103);
+
+
+create table UserDetails(
+    id number,
+    name varchar2(30),
+    username varchar2(30),
+    email varchar2(30),
+    address!: Address;
+    phone!:string;
+    website!: string;
+    company!: Company;
+}
